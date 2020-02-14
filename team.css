@@ -95,3 +95,23 @@ body{
 .link:hover{
     transform: rotateY(360deg);
 }
+@media screen and (max-width: 1000px){
+    .itembox{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 700px){
+    .itembox{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 480px){
+    .itembox{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (min-width: 1300px){
+    .itembox{
+        grid-gap: 2rem;
+    }
+}
