@@ -45,7 +45,37 @@ body{
     font-variant: small-caps;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    margin: 1rem;
+    margin: 0rem;
+    display: inline;
+}
+.c1heading:nth-child(1){
+    animation: color-change 3s ease-in-out 3.5s infinite forwards normal;
+    margin: 0 0 0 1rem;
+}
+.c1heading:nth-child(2){
+    animation: color-change 3s ease-in-out 3.5s infinite forwards normal;
+}
+.c1heading:nth-child(3){
+    animation: color-change 3s ease-in-out 3.5s infinite forwards normal;
+}
+.c1heading:nth-child(4){
+    animation: color-change 3s ease-in-out 3.5s infinite forwards normal;
+}
+.c1heading:nth-child(5){
+    animation: color-change 3s ease-in-out 3.5s infinite forwards normal;
+}
+.c1heading:nth-child(6){
+    animation: color-change 3s ease-in-out 3.5s infinite forwards normal;
+}
+.c1heading:nth-child(7){
+    animation: color-change 3s ease-in-out 3.5s infinite forwards normal;
+}
+@keyframes color-change{
+    0%{ color: red;}
+    25%{ color: orange;}
+    50%{ color: yellow;}
+    75%{ color: blue;}
+    100%{ color: blueviolet;}
 }
 .c1title p{
     font-size: 1.3rem;
@@ -63,6 +93,7 @@ body{
     font-weight: 600;
     border-radius: 6px;
     cursor: pointer;
+    margin: 0rem 1rem;
     transition: all .5s;
 }
 .btnlink{
@@ -70,7 +101,7 @@ body{
     color: black;
 }
 .c1title button:hover{
-    background-color: blue;
+    background-color:gray;
     transform: translateX(10px);
 }
 .container2{
