@@ -3,7 +3,7 @@ body{
     padding: 0px;
 }
 .container1{
-    background-image: url('container1.jpg');
+    background-image: url('img/container1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 1rem 2rem 5rem 2rem;
