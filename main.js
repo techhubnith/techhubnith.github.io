@@ -18,6 +18,6 @@ function display(){
         title[i].innerHTML = title_text.charAt(i);
         i++;
     }
-    setTimeout(display,500);
+    setTimeout(display,600);
 }
 display();

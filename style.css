@@ -49,26 +49,26 @@ body{
     display: inline;
 }
 .c1heading:nth-child(1){
-    animation: color-change 3s ease-in-out 3.5s infinite forwards normal;
+    animation: color-change 3s ease-in-out 5s infinite forwards normal;
     margin: 0 0 0 1rem;
 }
 .c1heading:nth-child(2){
-    animation: color-change 3s ease-in-out 3.5s infinite forwards normal;
+    animation: color-change 3s ease-in-out 5s infinite forwards normal;
 }
 .c1heading:nth-child(3){
-    animation: color-change 3s ease-in-out 3.5s infinite forwards normal;
+    animation: color-change 3s ease-in-out 5s infinite forwards normal;
 }
 .c1heading:nth-child(4){
-    animation: color-change 3s ease-in-out 3.5s infinite forwards normal;
+    animation: color-change 3s ease-in-out 5s infinite forwards normal;
 }
 .c1heading:nth-child(5){
-    animation: color-change 3s ease-in-out 3.5s infinite forwards normal;
+    animation: color-change 3s ease-in-out 5s infinite forwards normal;
 }
 .c1heading:nth-child(6){
-    animation: color-change 3s ease-in-out 3.5s infinite forwards normal;
+    animation: color-change 3s ease-in-out 5s infinite forwards normal;
 }
 .c1heading:nth-child(7){
-    animation: color-change 3s ease-in-out 3.5s infinite forwards normal;
+    animation: color-change 3s ease-in-out 5s infinite forwards normal;
 }
 @keyframes color-change{
     0%{ color: red;}
@@ -232,10 +232,13 @@ body{
     }
     .container2{
         padding: 1rem;
-        margin: 1rem 1rem 3rem 1rem;
+        margin: 1rem 1rem 3rem 0rem;
     }
     .c1items{
         padding: .5rem;
         margin: .5rem;
+    }
+    .header{
+        justify-content: center;
     }
 }
